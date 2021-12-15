@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import twitterLogo from './assets/twitter-logo.svg';
 
@@ -7,11 +7,11 @@ const TWITTER_HANDLE = 'toothbrush21';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
-    // Actions
+  // State
+  const [walletAddress, setWalletAddress] = useState(null);
 
-  /*
-  * Declare your function
-  */
+
+  // Actions
   const checkIfWalletIsConnected = async () => {
     try {
       const { solana } = window;
@@ -19,6 +19,15 @@ const App = () => {
       if (solana) {
         if (solana.isPhantom) {
           console.log('Phantom wallet found!');
+          const response = await solana.connect({ onlyIfTrusted: true });
+        console.log(
+          'Connected with Public Key:',
+          response.publicKey.toString()
+        );
+         /*
+         * Set the user's publicKey in state to be used later!
+         */    
+        setWalletAddress(response.publicKey.toString());
         }
       } else {
         alert('Solana object not found! Get a Phantom Wallet 👻');
@@ -28,10 +37,29 @@ const App = () => {
     }
   };
 
-  /*
-   * When our component first mounts, let's check to see if we have a connected
-   * Phantom Wallet
+  const connectWallet = async () => {
+    const { solana } = window;
+
+    if (solana) {
+      const response = await solana.connect();
+      console.log('Connected with Public Key:', response.publicKey.toString());
+      setWalletAddress(response.publicKey.toString());
+    }
+  };
+
+/*
+   * We want to render this UI when the user hasn't connected
+   * their wallet to our app yet.
    */
+  const renderNotConnectedContainer = () => (
+    <button
+      className="cta-button connect-wallet-button"
+      onClick={connectWallet}
+    >
+      Connect to Wallet
+    </button>
+  );
+
   useEffect(() => {
     const onLoad = async () => {
       await checkIfWalletIsConnected();
@@ -46,6 +74,7 @@ const App = () => {
         <div className="header-container">
           <p className="header">🐶 Bichon Buddies NFT Collection</p>
           <p className="sub-text">NFT drop machine with fair mint</p>
+          {!walletAddress && renderNotConnectedContainer()}
         </div>
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
