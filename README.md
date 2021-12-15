@@ -1,4 +1,4 @@
-# toothbrush21's 🐶 Bichon Buddies Solana NFT Collection 
+# 🐶 Bichon Buddies Solana NFT Collection 
 ### Welcome 👋
 To get started with this course, clone this repo and follow these commands:
 
