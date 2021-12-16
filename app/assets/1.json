@@ -1,0 +1,19 @@
+{
+    "name": "BichonBuddy #2",
+    "symbol": "",
+    "image": "1.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "1.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "2udVwzkHuvYaM8QFUa8JuZhPV3oLjC3ydjNFaucBBEZU",
+          "share": 100
+        }
+      ]
+    }
+  }
