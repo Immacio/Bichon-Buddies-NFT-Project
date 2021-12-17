@@ -73,8 +73,8 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">🐶 Bichon Buddies NFT Collection</p>
-          <p className="sub-text">Own your very own Bichon Buddy NFT!</p>
+          <p className="header">🐶 Bichon & Buddies NFT Collection</p>
+          <p className="sub-text">Own your very own Bichon NFT!</p>
           {!walletAddress && renderNotConnectedContainer()}
         </div>
         {walletAddress && <CandyMachine walletAddress={window.solana} />}
