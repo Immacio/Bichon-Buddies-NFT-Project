@@ -1,6 +1,6 @@
 # 🐶 Bichon Buddies Solana NFT Collection 
 ### Welcome 👋
-To get started with this course, clone this repo and follow these commands:
+Get started with the following commands:
 
 1. cd into the `app` folder
 2. Run `npm install` at the root of your directory
