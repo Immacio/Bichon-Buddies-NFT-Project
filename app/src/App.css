@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
 .App {
   height: 100vh;
   background: linear-gradient(to right, rgb(110, 231, 183), rgb(192, 132, 252));
@@ -37,6 +39,7 @@
 }
 
 .header {
+  font-family: 'Nerko One', cursive;
   margin: 0;
   font-size: 50px;
   font-weight: bold;
