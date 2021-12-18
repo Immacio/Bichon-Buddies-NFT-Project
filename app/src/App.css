@@ -82,6 +82,7 @@
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-left: 10px;
+  color:white;
 }
 
 .footer-container {
