@@ -161,7 +161,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className = "divider"></div>
+      <div className ="divider"></div>
       <div className="container">
             <p className="header">📙 FAQ</p>
             <p className="sub-text">Which wallets are supported?</p>
