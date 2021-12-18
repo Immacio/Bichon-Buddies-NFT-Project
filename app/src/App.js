@@ -107,8 +107,8 @@ const App = () => {
       </div>
       <div className = "container">
         <div className="gif-container">
-          <p className="header">🖼️ Bichon & Buddies Collection</p>
-          <p className="sub-text">All the unique NFTs in the collection</p>
+          <p className="header">🖼️ The Collection</p>
+          <p className="sub-text">16 unique NFTs available for minting</p>
           <div className="gif-grid">
             <div className="gif-item">
               <img src={doggo1} alt="doggy"/>
@@ -163,13 +163,13 @@ const App = () => {
       </div>
       <div className = "divider"></div>
       <div className="container">
-            <p className="header">FAQ</p>
+            <p className="header">📙 FAQ</p>
             <p className="sub-text">How do I connect my wallet?</p>
             <p className="sub-sub-text">You will need to download the <a href="https://phantom.app/">Phantom wallet</a> browser extension, and use the Solana Devnet to access the site. </p>
             <p className="sub-text">How much does it cost to mint a Bichon & Buddies NFT?</p>
             <p className="sub-sub-text">Each NFT costs 1 SOL to mint on the Solana Devnet.</p>
             <p className="sub-text">How many different NFTs are there in the collection?</p>
-            <p className="sub-sub-text">There are 16 unique NFTs in the Bichon & Buddies collection.</p>
+            <p className="sub-sub-text">There are 16 unique NFTs in the Bichon & Buddies collection - a variety of dog breeds are available ranging from bichons and dachschunds with special traits attached to each image.</p>
       </div>
       <div className = "divider"></div>
     </div>
