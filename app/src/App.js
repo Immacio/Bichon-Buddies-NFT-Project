@@ -164,7 +164,7 @@ const App = () => {
       <div className = "divider"></div>
       <div className="container">
             <p className="header">📙 FAQ</p>
-            <p className="sub-text">How do I connect my wallet?</p>
+            <p className="sub-text">Which wallets are supported?</p>
             <p className="sub-sub-text">You will need to download the <a href="https://phantom.app/">Phantom wallet</a> browser extension, and use the Solana Devnet to access the site. </p>
             <p className="sub-text">How much does it cost to mint a Bichon & Buddies NFT?</p>
             <p className="sub-sub-text">Each NFT costs 1 SOL to mint on the Solana Devnet.</p>
