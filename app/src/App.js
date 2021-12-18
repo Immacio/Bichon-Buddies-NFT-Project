@@ -107,7 +107,7 @@ const App = () => {
       </div>
       <div className = "container">
         <div className="gif-container">
-          <p className="header">🖼️ Bichon & Buddies Collection 🖼️</p>
+          <p className="header">🖼️ Bichon & Buddies Collection</p>
           <p className="sub-text">All the unique NFTs in the collection</p>
           <div className="gif-grid">
             <div className="gif-item">
