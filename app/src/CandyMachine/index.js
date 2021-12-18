@@ -391,9 +391,11 @@ const renderDropTimer = () => {
       <div className="machine-container">
         {renderDropTimer()}
         <p>{`Items Minted: ${machineStats.itemsRedeemed} / ${machineStats.itemsAvailable}`}</p>
+        <div>
         <button className="cta-button mint-button" onClick={mintToken} disabled={isMinting}>
             Mint NFT
         </button>
+        </div>
          {/* If we have mints available in our array, let's render some items */}
         {isLoadingMints && <p>LOADING MINTS...</p>}
         {mints.length > 0 && renderMintedItems()}
