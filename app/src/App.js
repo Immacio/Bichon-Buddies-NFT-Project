@@ -165,9 +165,9 @@ const App = () => {
       <div className="container">
             <p className="header">📙 FAQ</p>
             <p className="sub-text">Which wallets are supported?</p>
-            <p className="sub-sub-text">You will need to download the <a href="https://phantom.app/">Phantom wallet</a> browser extension, and use the Solana Devnet to access the site. </p>
+            <p className="sub-sub-text">You will need to download the <a href="https://phantom.app/">Phantom wallet</a> browser extension, and switch to the Solana Devnet to interact with the site. </p>
             <p className="sub-text">How much does it cost to mint a Bichon & Buddies NFT?</p>
-            <p className="sub-sub-text">Each NFT costs 0.33 SOL + network fees to mint on the Solana Devnet.</p>
+            <p className="sub-sub-text">Each NFT costs 0.33 SOL + network fees to mint on the Solana Devnet. You will need to use install the solana package on Node.JS and airdrop yourself solana using CLI. </p>
             <p className="sub-text">How many different NFTs are there in the collection?</p>
             <p className="sub-sub-text">There are 16 unique NFTs in the Bichon & Buddies collection - a variety of dog breeds are available ranging from bichons and dachschunds with special traits attached to each image.</p>
       </div>
