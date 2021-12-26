@@ -111,7 +111,7 @@ const App = () => {
       <div className = "container">
         <div className="gif-container">
           <p className="header">🖼️ The Collection</p>
-          <p className="sub-text">17 unique NFTs available for minting - now available on <a href="https://solsea.io/collection/61bf063ebe82aad29715c1df">SolSea</a></p>
+          <p className="sub-text">20 unique NFTs available for minting - now available on <a href="https://solsea.io/collection/61bf063ebe82aad29715c1df">SolSea</a></p>
           <div className="gif-grid">
             <div className="gif-item">
               <img src={doggo1} alt="doggy"/>
