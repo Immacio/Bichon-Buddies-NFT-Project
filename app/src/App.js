@@ -19,6 +19,7 @@ import doggo13 from './assets/doggo13.png';
 import doggo14 from './assets/doggo14.png';
 import doggo15 from './assets/doggo15.png';
 import doggo16 from './assets/doggo16.png';
+import doggo17 from './assets/doggo17.png';
 
 
 // Constants
@@ -108,7 +109,7 @@ const App = () => {
       <div className = "container">
         <div className="gif-container">
           <p className="header">🖼️ The Collection</p>
-          <p className="sub-text">16 unique NFTs available for minting</p>
+          <p className="sub-text">17 unique NFTs available for minting - now available on <a href="https://solsea.io/collection/61bf063ebe82aad29715c1df">SolSea</a></p>
           <div className="gif-grid">
             <div className="gif-item">
               <img src={doggo1} alt="doggy"/>
@@ -157,6 +158,9 @@ const App = () => {
             </div>
             <div className="gif-item">
               <img src={doggo16} alt="doggy"/>
+            </div>
+            <div className="gif-item">
+              <img src={doggo17} alt="doggy"/>
             </div>
           </div>
         </div>
