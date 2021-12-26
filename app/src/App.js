@@ -11,7 +11,7 @@ import doggo5 from './assets/doggo5.png';
 import doggo6 from './assets/doggo6.png';
 import doggo7 from './assets/doggo7.png';
 import doggo8 from './assets/doggo8.png';
-import doggo9 from './assets/doggo9.png';
+import doggo9 from './assets/doggo9.gif';
 import doggo10 from './assets/doggo10.png';
 import doggo11 from './assets/doggo11.png';
 import doggo12 from './assets/doggo12.png';
@@ -20,7 +20,9 @@ import doggo14 from './assets/doggo14.png';
 import doggo15 from './assets/doggo15.png';
 import doggo16 from './assets/doggo16.png';
 import doggo17 from './assets/doggo17.png';
-
+import doggo18 from './assets/doggo18.png';
+import doggo19 from './assets/doggo19.gif';
+import doggo20 from './assets/doggo20.png';
 
 // Constants
 const TWITTER_LINK = `https://twitter.com/toothbrush21`;
@@ -161,6 +163,15 @@ const App = () => {
             </div>
             <div className="gif-item">
               <img src={doggo17} alt="doggy"/>
+            </div>
+            <div className="gif-item">
+              <img src={doggo18} alt="doggy"/>
+            </div>
+            <div className="gif-item">
+              <img src={doggo19} alt="doggy"/>
+            </div>
+            <div className="gif-item">
+              <img src={doggo20} alt="doggy"/>
             </div>
           </div>
         </div>
