@@ -95,7 +95,9 @@ const App = () => {
     <div className="App">
       <div className="container-hero">
         <div className="footer-container">
+        <a href={TWITTER_LINK}>
             <img alt="Twitter Logo" className="twitter-logo" src={githubLogo} />
+            </a>
             <a
               className="footer-text"
               href={TWITTER_LINK}
@@ -110,7 +112,7 @@ const App = () => {
       </div>
       <div className = "container">
         <div className="gif-container">
-          <p className="header">🖼️ The Collection</p>
+          <p className="header">The Collection</p>
           <p className="sub-text">20 unique NFTs available available now on <a href="https://solsea.io/collection/61bf063ebe82aad29715c1df">SolSea</a></p>
           <div className="gif-grid">
             <div className="gif-item">
@@ -183,8 +185,10 @@ const App = () => {
             <p className="sub-sub-text">You will need to download the <a href="https://phantom.app/">Phantom wallet</a> browser extension, and switch to the Solana Devnet to interact with the site. </p>
             <p className="sub-text">How much does it cost to mint a Bichon & Buddies NFT?</p>
             <p className="sub-sub-text">Each NFT costs 0.33 SOL + network fees to mint on the Solana Devnet. You will need to use install the solana package on Node.JS and airdrop yourself solana using CLI. </p>
+            <p className="sub-text">Where can I purchase a Bichon & Buddies NFT?</p>
+            <p className="sub-sub-text">You may purchase an NFT through our <a href="https://solsea.io/collection/61bf063ebe82aad29715c1df">SolSea collection</a> or mint one for fun on the Solana Devnet by linking your Phantom wallet with the site.</p>
             <p className="sub-text">How many different NFTs are there in the collection?</p>
-            <p className="sub-sub-text">There are 16 unique NFTs in the Bichon & Buddies collection - a variety of dog breeds are available ranging from bichons and dachschunds with special traits attached to each image.</p>
+            <p className="sub-sub-text">There are 20 unique NFTs in the Bichon & Buddies collection - a variety of dog breeds are available ranging from bichons and dachschunds with special traits attached to each image.</p>
       </div>
       <div className = "divider"></div>
     </div>
