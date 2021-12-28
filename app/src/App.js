@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import './CandyMachine/CandyMachine.css';
 import githubLogo from './assets/github-logo.svg';
+import solanaLogo from './assets/solana-logo.svg';
 import CandyMachine from './CandyMachine';
 import doggo1 from './assets/doggo1.png';
 import doggo2 from './assets/doggo2.png';
@@ -106,7 +107,7 @@ const App = () => {
             >{`built by Immacio`}</a>
         </div>
             <p className="header">🐶 Bichon & Buddies NFT Collection</p>
-            <p className="sub-text">An NFT Collection inspired by Bichons -  powered by Solana</p>
+            <p className="sub-text">An NFT Collection inspired by Bichons - powered by <img alt="Twitter Logo" className="twitter-logo" src={solanaLogo} /> Solana</p>
             {!walletAddress && renderNotConnectedContainer()}
         {walletAddress && <CandyMachine walletAddress={window.solana} />}
       </div>
