@@ -104,8 +104,8 @@
 }
 
 .twitter-logo {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 
 .footer-text {
@@ -113,6 +113,7 @@
   font-weight: bold;
   color: white;
   text-decoration: none;
+  padding-left:0.5em;
 }
 
 .connected-container input[type='text'] {

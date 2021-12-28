@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import './CandyMachine/CandyMachine.css';
-import twitterLogo from './assets/twitter-logo.svg';
+import githubLogo from './assets/github-logo.svg';
 import CandyMachine from './CandyMachine';
 import doggo1 from './assets/doggo1.png';
 import doggo2 from './assets/doggo2.png';
@@ -25,7 +25,7 @@ import doggo19 from './assets/doggo19.gif';
 import doggo20 from './assets/doggo20.png';
 
 // Constants
-const TWITTER_LINK = `https://twitter.com/toothbrush21`;
+const TWITTER_LINK = `https://github.com/Immacio`;
 
 const App = () => {
   // State
@@ -95,13 +95,13 @@ const App = () => {
     <div className="App">
       <div className="container-hero">
         <div className="footer-container">
-            <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
+            <img alt="Twitter Logo" className="twitter-logo" src={githubLogo} />
             <a
               className="footer-text"
               href={TWITTER_LINK}
               target="_blank"
               rel="noreferrer"
-            >{`built by Maurice Willis`}</a>
+            >{`built by Immacio`}</a>
         </div>
             <p className="header">🐶 Bichon & Buddies NFT Collection</p>
             <p className="sub-text">An NFT Collection inspired by Bichons -  powered by Solana</p>
