@@ -117,6 +117,7 @@
 .twitter-logo {
   width: 30px;
   height: 30px;
+  vertical-align: text-bottom;
 }
 
 .footer-text {
