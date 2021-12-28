@@ -25,7 +25,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 100px 0 100px;
   color: white;
   position: relative;
   /* background-color: #35aee2; */
@@ -43,6 +42,16 @@
   margin: 0;
   font-size: 70px;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    font-size: 35px;
+  }
+
+  .sub-text {
+    font-size: 20px !important;
+  }
 }
 
 .sub-text {
