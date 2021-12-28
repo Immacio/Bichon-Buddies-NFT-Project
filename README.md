@@ -1,4 +1,4 @@
-# 🐶 Bichon Buddies Solana NFT Collection 
+# 🐶 Bichon & Buddies Solana NFT Collection 🐶
 ### Welcome 👋
 Get started with the following commands:
 
